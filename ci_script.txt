@@ -1,0 +1,23 @@
+$ cargo installl cargo-watch
+
+$ cargo watch -x check -x test -x run
+
+
+coverage
+$ cargo install cargo-tarpaulin
+$ cargo tarpaulin --ignore-tests
+
+
+
+linting
+cargo clippy 
+
+formating
+cargo fmt
+
+security vulnerabilities
+cargo audit
+
+
+
+
